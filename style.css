@@ -8,6 +8,19 @@ body,*{
     --enfasis-color: #6dc0bf;
 }
 
+@font-face{
+    font-family: 'Candara';
+    src: url(https://edcitec.org/src/mail/fonts/candara/Candara.ttf);
+}
+
+@font-face{
+    font-family: 'Darkgm';
+    src: url(https://edcitec.org/src/mail/fonts/darkg/DarkerGrotesque-Medium.ttf);
+}
+#mainbox{
+    letter-spacing: 2px;
+
+}
 #header{
     background-color: var(--enfasis-color);
     height: auto;
@@ -22,7 +35,7 @@ body,*{
 
 #imgwelcome{
     height: auto;
-    width: 100%;
+    width: auto ;
     
 }
 
@@ -35,36 +48,49 @@ body,*{
 
 #contenido h4 {
     text-transform: uppercase;
-    font-size: 1.2em;
+    font-size: 1.4em;
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 3px;
 }
-#contenido h3{
-    margin: 5vh 0px;
-    font-size: 2.5em;
+#nombre{
+    margin: 2vh 0px 4vh 0px;
+    font-size: 3.5em;
     text-transform: uppercase;
-    text-decoration: solid;
-    
+    font-family:  'Darker Grotesque',sans-serif;
+    letter-spacing: 7px;
 }
 
 #contenido p{
     font-size: 1em;
+    font-family: 'Candara';
+    letter-spacing: 1px;
 }
 
 #question{
     margin-top: 5vh;
     margin-bottom: 20px;
-    font-size: 1.1em;
-    text-transform: uppercase;
+    font-size: 1.2em;
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 3px;
 }
 
 #contenido a{
     font-size: 1.1em;
     text-transform: uppercase;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.842);
     color: var(--primary-color);
-    padding: 10px 40px;
+    padding: 8px 40px 10px 40px;
     border-radius: 50px;
     box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.137);
     text-decoration: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+#contenido a:hover{
+    background-color: white;
 }
 
 #footer{

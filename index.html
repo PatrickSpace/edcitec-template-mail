@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500&display=swap" rel="stylesheet">
-    <title>Mail Design</title>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Mail</title>
 </head>
 
 <body>
-    <div id="mainbox">
-        <div id="header">
-            <img id="logoblanco" src="https://edcitec.org/src/mail/img/logo.png" alt="logo">
-        </div>
-        <div id="img"> <img id="imgwelcome" width="100" src="https://edcitec.org/src/mail/img/welcome.jpeg"
-                alt="img principal"></div>
+    <div id="header">
+        <img id="logoblanco" src="https://edcitec.org/src/mail/img/logo.png" alt="logo">
+    </div>
+    <div id="main">
+        <div id="imgwelcome"></div>
         <div id="contenido">
             <h4>Hola! Bienvenid@ a edcitec:</h4>
             <h3 id="nombre"><u>camila</u></h3>
@@ -26,14 +25,25 @@
                 nostrum recusandae commodi voluptatum! Id sequi hic dolore, voluptates esse iure nisi delectus! Tempore,
                 sed! Alias cum in exercitationem nihil aliquam repudiandae?</p>
             <h5 id="question">¿Tienes una consulta?</h5>
-            <a href="#">conéctame a whatsapp</a>
+            <a id="btncontacto" role="button" href="https://api.whatsapp.com/send?phone=51964331095">conéctame a whatsapp</a>
         </div>
-        <div id="footer">
-            <div id="f1">
-                <div></div>
-                <div></div>
+    </div>
+
+    <div id="footer">
+        <div id="innerfooter">
+            <div class="feet" id="f1">
+                <a target="_blank" href="https://edcitec.org/">
+                    <img class="logofoot" src="https://edcitec.org/src/mail/icon/web.png" alt="icono web ong">
+                    <p>www.edcitec.org</p>
+                </a>
+                <div id="divider"></div>
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=51964331095">
+                    <img class="logofoot" src="https://edcitec.org/src/mail/icon/wpp.png" alt="icono whatsapp ong">
+                    <p>964331095</p>
+                </a>
             </div>
-            <div id="f2">
+
+            <div class="feet" id="f2">
                 <img id="logocolor" src="https://edcitec.org/src/mail/img/logo-color.png" alt="logo color">
             </div>
         </div>
